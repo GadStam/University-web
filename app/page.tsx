@@ -5,47 +5,27 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { CardHoverEffectDemo } from "@/components/cardHoverEffectDemo";
+import  {RightSlide}  from "@/components/RightSlide";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
-				<br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
-				</h1>
-				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
-				</h2>
-			</div>
+	<section>
+      <div className="text-justify">
+	  <h1 className="text-white sm:text-8xl lg:text-8xl font-extrabold md:text-xl text-center">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-red-600">
+              ORT X UNIVERSIDADES
+            </span>
+			</h1>
+			<p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 mt-3">
+          Bienvenido al sitio web en el que podras ver diferentes alumnos que pasaron por tu especialidad que cuentan en que carrera se encuentran ahora, porque la elijieron y podras ponerte en contacto con ellos por si necesitas una ayuda
+        </p>
 
-			<div className="flex gap-3">
-				<Link
-					isExternal
-					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-				>
-					Documentation
-				</Link>
-				<Link
-					isExternal
-					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
-				>
-					<GithubIcon size={20} />
-					GitHub
-				</Link>
-			</div>
+		<RightSlide/>
 
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
+		<CardHoverEffectDemo/>
 			</div>
-		</section>
+	  </section>
+		
 	);
 }
