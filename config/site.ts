@@ -14,7 +14,7 @@ export const siteConfig = {
     },
     {
       label: "Colaborador",
-      href: "/Colaborador",
+      href: "/colaborador",
     },
     {
       label: "Blog",

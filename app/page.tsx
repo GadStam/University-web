@@ -13,11 +13,11 @@ export default function Home() {
 	<section>
       <div className="text-justify">
 	  <h1 className="text-white sm:text-8xl lg:text-8xl font-extrabold md:text-xl text-center">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-red-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-700">
               ORT X UNIVERSIDADES
             </span>
 			</h1>
-			<p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 mt-3">
+			<p className="text-neutral-500 max-w-lg mx-auto my-2 relative z-10 mt-3 text-xl">
           Bienvenido al sitio web en el que podras ver diferentes alumnos que pasaron por tu especialidad que cuentan en que carrera se encuentran ahora, porque la elijieron y podras ponerte en contacto con ellos por si necesitas una ayuda
         </p>
 
