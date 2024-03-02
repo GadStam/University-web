@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.11",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/code": "2.0.24",
     "@nextui-org/input": "2.1.16",
@@ -19,6 +22,7 @@
     "@nextui-org/switch": "2.0.25",
     "@nextui-org/system": "2.0.15",
     "@nextui-org/theme": "2.1.17",
+    "@prisma/client": "^5.10.2",
     "@react-aria/ssr": "^3.8.0",
     "@react-aria/visually-hidden": "^3.8.6",
     "@tsparticles/engine": "^3.2.2",
@@ -28,20 +32,27 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
+    "bcrypt": "^5.1.1",
     "clsx": "^2.1.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
     "framer-motion": "^10.18.0",
     "intl-messageformat": "^10.5.0",
     "next": "14.0.2",
+    "next-auth": "^4.24.6",
     "next-themes": "^0.2.1",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.6.4",
+    "react-hook-form": "^7.50.1",
     "tailwind-merge": "^2.2.1",
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "3.3.5",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "prisma": "^5.10.2"
   }
 }
